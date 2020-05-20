@@ -1,2 +1,2 @@
 # my.bashprofile
-Bash Profile Backup
+Personal .bash_profile back up w/aliases 
