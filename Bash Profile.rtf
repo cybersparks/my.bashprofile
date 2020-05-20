@@ -1,31 +1,29 @@
 Start of my bash profile
-alias ..='cd ..'\
-alias ...='cd ../..'\
-alias ....='cd ../../..'\
-alias lc='ls -l'\
-alias la='ls -la'\
-alias lh='ls -lh'\
-alias ltr='ls -ltr'\
-export prof="$HOME/.bash_profile"\
-alias sp="source $prof"\
-alias vip="vi $prof"\
-alias gs='git status'\
-alias gcm='git commit -m'\
-alias gr='git remote'\
-alias gti='git'\
-alias lr='ls -hartl'\
-alias hack="cd $HOME/hackwithsean"\
-alias dos="cd $HOME/Desktop"\
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias lc='ls -l'
+alias la='ls -la'
+alias lh='ls -lh'
+alias ltr='ls -ltr'
+export prof="$HOME/.bash_profile"
+##Git aliases Below ##
+alias gs='git status'
+alias gcm='git commit -m'
+alias gr='git remote'
+alias gti='git'
+alias lr='ls -hartl'
+alias hack="cd $HOME/hackwithsean" ##kept for records##
+alias dos="cd $HOME/Desktop"
 
 #All changes below where made to Improve Terminals Looks to tell whats a Directory vs File et# c. Reference-http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/\
-alias ls='ls -GFh'\
+alias ls='ls -GFh'
 export PS1="\\[\\033[36m\\]\\u\\[\\033[m\\]@\\[\\033[32m\\]\\h:\\[\\033[33;1m\\]\\w\\[\\033[m\\]\\$ "\
-export CLICOLOR=1\
-export LSCOLORS=ExFxBxDxCxegedabagacad\
-#End of Terminal Changes Above\
-\
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+#End of Terminal Changes Above
+
 #Step #2 - Export your bin directory to the PATH. https://www.taniarascia.com/how-to-create-and-use-bash-scripts/\
 export PATH=$PATH:/Users/jessie/bin\
-#End of Step #2.\
-\
-#How to add color to your VIM Session. When doing command. only lasts during that session. While editing a Doc in VIM type " ESC :syntax on"
+#End of Step #2.
+
